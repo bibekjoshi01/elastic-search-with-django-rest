@@ -19,13 +19,13 @@ python -m venv venv
 pip install -r requirements.txt
 ```
 
-5. You will need docker for this project. Go ahead and install docker desktop if you havent already done so
-
-6. Start the new containers
+5. You will need docker for this project. Go ahead and install docker desktop if you havent already done so, Start the new containers
 
 ```
 docker-compose up -d
 ```
+
+6. Load Demo Fixtures Data
 
 ```
 python manage.py demo-fixtures
